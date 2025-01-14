@@ -1,0 +1,51 @@
+/* Container for all the components */
+.appContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* Wraps items to the next line if necessary */
+  gap: 20px;
+  /* Space between items */
+  justify-content: flex-start;
+  /* Align items to the left */
+}
+
+/* Style for each rectangle container */
+.rectangle-container {
+  width: 250px;
+  /* Adjusted width */
+  height: 80px;
+  /* Adjusted height */
+  background-color: #2e85db;
+  /* Background color */
+  display: flex;
+  flex-direction: column;
+  /* Stack name and email vertically */
+  justify-content: center;
+  /* Center content vertically */
+  align-items: center;
+  /* Center content horizontally */
+  color: white;
+  /* Text color */
+  font-family: Arial, sans-serif;
+  /* Font styling */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Style for name */
+.name {
+  font-size: 1em;
+  /* Font size for name */
+  font-weight: bold;
+  /* Bold name */
+}
+
+/* Style for email */
+.email {
+  font-size: 0.9em;
+  /* Slightly smaller font for email */
+  margin-top: 4px;
+  /* Space between name and email */
+}
