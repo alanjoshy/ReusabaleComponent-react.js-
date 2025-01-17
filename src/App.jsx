@@ -31,7 +31,7 @@ function Datapassing() {
           email={person.email}
         />
       ))}
-    </div>
+    </div> 
   );
 }
 
